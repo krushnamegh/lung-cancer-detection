@@ -1,0 +1,42 @@
+streamlit==1.28.0
+tensorflow==2.13.0
+numpy==1.24.3
+pillow==10.0.0
+matplotlib==3.7.2
+opencv-python-headless==4.8.0.74
+scipy==1.11.2
+```
+
+**Save it in your project folder!**
+
+---
+
+## **⚡ STEP 2: CREATE .gitignore (1 min)**
+
+Create a file called `.gitignore` (note the dot at the start):
+```
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+
+# Models (too large for Git)
+*.h5
+*.hdf5
+*.pkl
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Streamlit
+.streamlit/secrets.toml
